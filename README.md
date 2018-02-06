@@ -1,7 +1,7 @@
 # Delete Key
 [![Build Status](https://travis-ci.org/flexdinesh/del-key.svg?branch=master)](https://travis-ci.org/flexdinesh/del-key)
 
-Library to delete a key from a deeply nested JavaScript object.
+Delete a key from a deeply nested JavaScript object.
 
 ## Why? [![start with why](https://img.shields.io/badge/start%20with-why%3F-brightgreen.svg?style=flat)](http://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action)
 
