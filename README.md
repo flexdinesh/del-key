@@ -26,9 +26,9 @@ $ npm install --save del-key
 
 **deleteKey(obj, pathToDelete)**
 
-**obj** - the object that has the key to be deleted
+_obj_ - the object that has the key to be deleted
 
-**pathToDelete** - the path to the key in the object in string notation
+_pathToDelete_ - the path to the key in the object in string notation
 
 _See examples below for more info_.
 
