@@ -8,7 +8,7 @@ Delete a key from a deeply nested JavaScript object.
 There are a few other libs that already aid in deleting keys from objects. But none of them iteratively deletes the key if one of the nested objects is an _array_.
 
 The following are the highlights of this `delete-key` library.
-  - Traverses through the exact path for maximum performance. Does not iterate over the keys to find detect presence.
+  - Traverses through the exact path for maximum performance. Does not iterate over the keys to detect presence.
   - Support for arrays in object path. The path is traversed in each array item.
   - Accepts array index in path definition.
   - Mutates the object.
