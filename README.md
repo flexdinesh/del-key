@@ -1,5 +1,7 @@
 # Delete Key
 [![Build Status](https://travis-ci.org/flexdinesh/del-key.svg?branch=master)](https://travis-ci.org/flexdinesh/del-key)
+[![npm version](https://badge.fury.io/js/del-key.svg)](https://www.npmjs.com/package/del-key)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 Delete a key from a deeply nested JavaScript object.
 
