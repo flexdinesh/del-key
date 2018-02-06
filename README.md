@@ -5,7 +5,7 @@ Delete a key from a deeply nested JavaScript object.
 
 ## Why? [![start with why](https://img.shields.io/badge/start%20with-why%3F-brightgreen.svg?style=flat)](http://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action)
 
-There are a few other npm packages that already aid in deleting keys from objects. But none of them iteratively deletes the key if one of the nested objects is an array.
+There are a few other libs that already aid in deleting keys from objects. But none of them iteratively deletes the key if one of the nested objects is an array.
 
 The following are the highlights of this `delete-key` library.
   - The lib traverses through the exact path for maximum performance. No iterating over the keys to find for presence.
