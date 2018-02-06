@@ -46,7 +46,7 @@ const obj = {
   }
 }
 deleteKey(obj, 'nestedKey.poorKey') // =>obj.nestedKey = { luckyKey: 'hi' }
-/* ------------------------------------ */
+//------------------------------------
 
 const obj = {
   nestedArray: [{
@@ -60,7 +60,7 @@ const obj = {
 deleteKey(obj, 'nestedArray[0].poorKey')
 // =>obj.nestedArray[0] = { luckyKey: 'first hi' }
 // =>obj.nestedArray[1] = { poorKey: 'second hello', luckyKey: 'first hi' }
-/* ------------------------------------ */
+//------------------------------------
 
 const obj = {
   nestedArray: [{
