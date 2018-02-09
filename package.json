@@ -1,6 +1,6 @@
 {
   "name": "del-key",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Safely delete a deeply nested key in an object",
   "main": "./lib/index.js",
   "scripts": {
