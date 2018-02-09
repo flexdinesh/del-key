@@ -11,7 +11,7 @@ There are a few other libs that already aid in deleting keys from objects. But n
 
 The following are the highlights of this `delete-key` library.
   - Traverses through the exact path for maximum performance. Does not iterate over the keys to detect presence.
-  - Support for arrays in object path. Keys will be iteratively removed from each item in the array. *(This is where `del-key` is differs from lodash's `_.unset()`)*
+  - Support for arrays in object path. Keys will be iteratively removed from each item in the array. *(This is where `del-key` differs from lodash's `_.unset()` method)*
   - Accepts array index in path definition.
   - Mutates the object.
 
