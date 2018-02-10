@@ -19,7 +19,7 @@ export const deleteKey = (obj, key) => {
     const arrIndex = stripArrayIndexFromArrayPath(key);
     if (
       t(obj[objKey]).isArray &&
-      obj[objKey].length >= (arrIndex - 1)
+      obj[objKey].length >= (arrIndex + 1)
     ) {
       obj[objKey].splice(arrIndex, 1);
     }

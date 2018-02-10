@@ -37,6 +37,22 @@ describe('Util', () => {
         ]
       });
     });
+
+    it('should not delete key with wrong array index', () => {
+      const obj = {
+        myArr: [
+          { myKey: 'key one' },
+          { myKey: 'key two' }
+        ]
+      };
+      const mutatedObj = deleteKey(obj, 'myArr[4]');
+      assert.deepEqual(mutatedObj, {
+        myArr: [
+          { myKey: 'key one' },
+          { myKey: 'key two' }
+        ]
+      });
+    });
   });
 
   describe('First key', () => {
